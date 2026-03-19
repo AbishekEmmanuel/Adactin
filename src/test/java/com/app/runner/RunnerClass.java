@@ -18,5 +18,6 @@ import io.cucumber.junit.CucumberOptions;
                  )
                  
 public class RunnerClass {
+  "Hi"
 
 }
