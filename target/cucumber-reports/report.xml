@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="17.534" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Testing the Adaction login" name="Validate the Adcation POM Module" time="16.86">
+<system-out><![CDATA[
+Given Enter the URL "https://adactinhotelapp.com/"..........................passed
+When Enter the Username "DevipriyaS"........................................passed
+And Enter the Password "Priya@1234".........................................passed
+And Click the login button..................................................passed
+And Select the value in Location dropdown "New York"........................passed
+And Select the value in Hotels dropdown "Hotel Sunshine"....................passed
+And Select the value in RoomType dropdown "Double"..........................passed
+And Select the value in No.of Rooms dropdown "1"............................passed
+And Enter the Checkin data "17/03/2026".....................................passed
+And Enter the Checkout date "19/03/2026"....................................passed
+And Select the value in Adults per Room dropdown "2"........................passed
+And Select the value in Childern per Room dropdown "1"......................passed
+And Click the search button.................................................passed
+And Click the select button.................................................passed
+And Click the Continue button...............................................passed
+And Enter the First Name "Devipriya"........................................passed
+And Enter the Last Name "Surendhar".........................................passed
+And Enter the Billing Address "Chennai".....................................passed
+And Enter the CC Number "1234567890987654"..................................passed
+And Select the value in CC Type dropdown "VISA".............................passed
+And Select the Value in Expiry date Month "2"...............................passed
+And Select the Value in Expiry date Year "2028".............................passed
+And Enter the CVV Number "1234".............................................passed
+Then Click the Book Now button..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
