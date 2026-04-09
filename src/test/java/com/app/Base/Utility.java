@@ -48,7 +48,9 @@ public class Utility {
 	public static String getAttribute(WebElement element, String attrName) {
 		return element.getAttribute(attrName);
 	}
-	
+
+	public static WebElement getElement(By value){
+		return driver.findElement(value);
 	
 	
 	
